@@ -13,32 +13,35 @@ def tutorial_game():
 
         if cursor == 0:
             print("\n1. Next")
+            print("2. Exit")
             try:
                 option = int(input("\n-> "))
-                if option != 1:
+                if option == 1:
+                    cursor += 1
+                elif option == 2:
+                    break
+                else:
                     os.system("cls")
                     print("The existed option is only 1")
-                
-                else:
-                    cursor +=1
             except:
                 os.system("cls")
                 print("Please input on integer format")
 
         elif cursor > 0 and cursor != 4:
-            print("\n1. Back")
-            print("2. Next")
+            print("\n1. Next")
+            print("2. Back")
+            print("3. Exit")
             try:
                 option = int(input("\n-> "))
                 if option == 1:
-                    cursor -= 1
-                    
-                elif option == 2:
                     cursor += 1
-                    
+                elif option == 2:
+                    cursor -= 1
+                elif option == 3:
+                    break
                 else:
                     os.system("cls")
-                    print("The existed option is only 1 and 2")
+                    print("The existed option is only 1,2 or 3")
             except:
                 os.system("cls")
                 print("Please input on integer format")
@@ -47,7 +50,7 @@ def tutorial_game():
             continue_option = input("Finish with tutorial? (y/n): ")
 
             if continue_option == 'y' or continue_option == 'Y':
-                break;
+                break
 
             else:
                 cursor = 0

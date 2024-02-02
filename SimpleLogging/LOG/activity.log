@@ -1,0 +1,15 @@
+ACTIVITY LOGGER(__main__) | INFO | Start Program | 01 - Feb - 24 22:32:11
+ACTIVITY LOGGER(__main__) | INFO | Generate File data.txt | 01 - Feb - 24 22:32:11
+ACTIVITY LOGGER(CRUD.create) | INFO | Start Create Data | 01 - Feb - 24 22:32:20
+ACTIVITY LOGGER(CRUD.create) | INFO | Adding Data to file | 01 - Feb - 24 22:32:33
+ACTIVITY LOGGER(CRUD.create) | INFO | Add Data Succesfull | 01 - Feb - 24 22:32:33
+ACTIVITY LOGGER(CRUD.create) | INFO | Continue creating data | 01 - Feb - 24 22:32:35
+ACTIVITY LOGGER(CRUD.create) | INFO | Adding Data to file | 01 - Feb - 24 22:32:48
+ACTIVITY LOGGER(CRUD.create) | INFO | Add Data Succesfull | 01 - Feb - 24 22:32:48
+ACTIVITY LOGGER(CRUD.create) | INFO | Creating Data Ended | 01 - Feb - 24 22:32:49
+ACTIVITY LOGGER(CRUD.read) | INFO | Start Read Data | 01 - Feb - 24 22:32:50
+ACTIVITY LOGGER(CRUD.read) | INFO | Open File data.txt | 01 - Feb - 24 22:32:50
+ACTIVITY LOGGER(CRUD.read) | INFO | Read Data Ended | 01 - Feb - 24 22:32:50
+ACTIVITY LOGGER(CRUD.update) | INFO | Start Update Data | 01 - Feb - 24 22:32:52
+ACTIVITY LOGGER(CRUD.update) | WARNING | Warning Triggered! target index 4 is not exist | 01 - Feb - 24 22:32:57
+ACTIVITY LOGGER(CRUD.update) | INFO | Update Data Ended | 01 - Feb - 24 22:32:58
